@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <h2>Formulario de Contacto</h2>
+    <form action="submito" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Gmail:</label>
+        <input type="email" id="email" name="email" pattern=".+@gmail\.com" required><br><br>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <form>
+        <article>
+    <center>
+        <img src="static/imagenes/hh.jpeg" alt="" width="300" height="400"><br><br>
+      <div class="social-icons">
+        <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="https://www.youtube.com/@carlosdavidcardenashernand9488" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://www.facebook.com/carlosdavid.cardenashernandez.7" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+    </center>
+</article>
+ </form>
+</body>
+</html>

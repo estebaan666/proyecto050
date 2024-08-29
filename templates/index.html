@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="static/css/estilo.css">
+</head>
+<body>
+    <header class="header">
+        <img src="static/imagenes/cd65940c-026d-43c6-9700-952dd000721b.jpeg" alt="Imagen Superior" class="header-image">
+        <div class="logo">ESTEBAN YANCE</div>
+        
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#ESTEBAN YANCE" class="nav-link">Proyectos</a></li>
+                <li><a href="{{ url_for('acercade') }}" class="nav-link">Acerca de</a></li>
+                <li><a href="{{ url_for('redes') }}" class="nav-link">Redes</a></li>
+            </ul>
+            <li><a href="{{ url_for('contacto') }}" class="nav-link">Contacto</a></li>
+        </nav>
+    </header>
+
+    <section id="ESTEBAN YANCE" class="section">
+        <h2>ESTEBAN YANCE</h2>
+        <p>Aquí puedes ver algunos de mis proyectos.</p>
+    </section>
+
+    <section id="acerca-de" class="section">
+        <h2>Acerca de</h2>
+        <p>Información sobre mí.</p>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de los siguientes medios.</p>
+    </section>
+
+    <footer class="footer">
+        <img src="imagenes/foto.jpg.jpg" alt="Imagen Inferior class="footer-image">
+        <p>© 2024 Mi Portafolio</p>
+    </footer>
+    <style>
+    body{
+    background-image: url("imagenes/foto.jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+    </style>
+</body>
+</html>
